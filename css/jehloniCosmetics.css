@@ -8,7 +8,7 @@
 
 body {
     background-color: pink;
-    background-image: radial-gradient(circle, #c7cae1, #282dab, #6f1f91);
+    background-image: radial-gradient(circle, #7c89eb, #282dab, #3b0b4f);
 }
 
 #container {
@@ -20,38 +20,40 @@ body {
 }
 
 nav {
-    /* border-width: 1px;
-    border-style: solid;
+    border-width: 1px;
+    /* border-style: solid;
     border-color: black; */
-    width: 280px;
-    padding: 10px 40px 30px 10px; /* top right bottom left */ 
+    text-align: center;
+    /* width: 280px; */
+    padding: 10px 0px 30px 10px; /* top right bottom left */ 
     font-size: 60px; 
-    float: ;
+    font-family: 'Marck Script', cursive;   
 }
-
-nav {
-    font-family: 'Splash', cursive;
+p{
+    text-align: center;
+    padding: 20px 0px 30px 400px;
 }
-
-nav li {
-    list-style-type: none;
-}
-
-h1 {
+h1{
     text-align: center;
     font-size: 120px;
-    font-family: 'Style Script', cursive;
-    color: #FF1493;
-    text-shadow: 2px 2px #FFFFFF;
+    font-family: 'Cormorant SC', serif;
+    color: #000045;
+    text-shadow: 2px 2px #0f396345;
+}
+a{
+    width: 1200px;
+    margin: 50px auto 0 auto;
+    text-align: center;
 }
 
 #productDescription {
     /* border-width: 1px;
     border-style: solid;
     border-color: black; */
+    text-align: center;
     width: 698px;
-    padding: 0px 30px 0px 60px
-    margin: 0 30px 0 300px;
+    padding: 0px 30px 0px 60px;
+
 }
 
 footer {
@@ -59,7 +61,7 @@ footer {
     /* border-width: 1px;
     border-style: solid;
     border-color: black; */
-    padding: 20px 20px 20px 20px;
+    padding: 600px 20px 20px 20px;
     text-align: center;
 }
 
@@ -69,7 +71,10 @@ footer {
     color: #431125;
     text-shadow: 2px 2px #7e4646;
 }
-ul li 
+li{
+    list-style: none;
+}
+/* ul li  */
 /* TODO: Understand this better */
 /* #mainContent {
     background-color: #ff43a4;
