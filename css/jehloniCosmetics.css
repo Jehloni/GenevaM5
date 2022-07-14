@@ -8,9 +8,33 @@
 
 body {
     background-color: pink;
-    background-image: radial-gradient(circle, #7c89eb, #282dab, #3b0b4f);
+    background-image: radial-gradient(circle, #ffffff, #b1b1bc, #696969);
 }
-
+div{
+    border:1px solid black;
+    color:white  
+}
+#one{
+    background:red;
+    height:100px;
+    text-align:center;
+    font-size: 100px;
+}
+#two{
+    background:green;
+    width:300px;
+    height:500px;
+    float:left;
+}
+#three{
+    background:yellow;
+    height:400px;
+    color:black;
+    padding: 0px 0px 0px 50px
+}
+#four{
+    background:pink
+}
 #container {
     /* border-width: 1px;
     border-style: solid;
@@ -74,6 +98,7 @@ footer {
 li{
     list-style: none;
 }
+
 /* ul li  */
 /* TODO: Understand this better */
 /* #mainContent {
