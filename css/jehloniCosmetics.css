@@ -6,7 +6,98 @@
     padding: 0;
 }
 
-body {
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+header {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+nav {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px 0 30px 0;
+}
+
+nav li {
+    margin: 5px 0 5px 0;
+}
+
+ul {
+    text-align: center;
+}
+
+footer {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.productPictureAndName h3 {
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+/* Margin is space around stuff */
+#container {
+    width: 1000px;
+    margin: 0 auto 0 auto; /* Top, right, bottom, left */
+}
+
+
+
+#mainContent {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.productImage {
+    width: 200px;
+}
+
+#rowOfProducts {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto 0 auto;
+    width: 700px;
+}
+
+.productPictureAndName {
+    float: left;
+    margin: 0 0 0 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+#one{
+    background:red;
+    height: 150px;
+    text-align:right;
+    font-size: 70px;
+    width: 50%;
+
+
+
+/* body {
     background-color: pink;
     background-image: radial-gradient(circle, #ffffff, #b1b1bc, #696969);
 }
@@ -16,48 +107,52 @@ div{
 }
 #one{
     background:red;
-    height:100px;
-    text-align:center;
-    font-size: 100px;
+    height: 150px;
+    text-align:right;
+    font-size: 70px;
+    width: 50%;
 }
 #two{
-    background:green;
-    width:300px;
-    height:500px;
-    float:left;
+    background:yellow;
+    width:200px;
+    color:black;
+    float:center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 1900px
 }
 #three{
-    background:yellow;
-    height:400px;
-    color:black;
-    padding: 0px 0px 0px 50px
+    background:green;
+    width:500px;
+    height:900px;
+    float:right;
 }
 #four{
     background:pink
 }
 #container {
-    /* border-width: 1px;
+    border-width: 1px;
     border-style: solid;
-    border-color: black; */
+    border-color: black;
     width: 1000px;
-    margin: 0 auto 0 auto; /* top right bottom left */    
+    margin: 0 auto 0 auto; /* top right bottom left     
 }
 
 nav {
-    border-width: 1px;
-    /* border-style: solid;
-    border-color: black; */
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
     text-align: center;
-    /* width: 280px; */
-    padding: 10px 0px 30px 10px; /* top right bottom left */ 
+    width: 280px;
+    padding: 10px 0px 30px 10px; /* top right bottom left  
     font-size: 60px; 
     font-family: 'Marck Script', cursive;   
 }
 p{
     text-align: center;
     padding: 20px 0px 30px 400px;
-}
-h1{
+} */
+
+/* h1{
     text-align: center;
     font-size: 120px;
     font-family: 'Cormorant SC', serif;
@@ -68,12 +163,13 @@ a{
     width: 1200px;
     margin: 50px auto 0 auto;
     text-align: center;
+    font-size: 40px;
 }
 
 #productDescription {
-    /* border-width: 1px;
+    border-width: 1px;
     border-style: solid;
-    border-color: black; */
+    border-color: black;
     text-align: center;
     width: 698px;
     padding: 0px 30px 0px 60px;
@@ -82,9 +178,9 @@ a{
 
 footer {
     clear: both;
-    /* border-width: 1px;
+    border-width: 1px;
     border-style: solid;
-    border-color: black; */
+    border-color: black;
     padding: 600px 20px 20px 20px;
     text-align: center;
 }
@@ -97,7 +193,7 @@ footer {
 }
 li{
     list-style: none;
-}
+} 
 
 /* ul li  */
 /* TODO: Understand this better */
