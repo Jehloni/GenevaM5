@@ -1,35 +1,75 @@
-/* font-family: 'Splash', cursive; */
-/* font-family: 'Style Script', cursive; */
+/* font-family: 'Cormorant SC', serif;
+font-family: 'Josefin Sans', sans-serif; */
 
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-repeat: no-repeat;
+    font-family: 'Cormorant SC', serif;
+    background-color: white;
+    background-size: initial;
+    background-position: center;
+}
+
 h1 {
     text-align: center;
     font-size: 100px;
+    text-transform: uppercase;
+    color: #b66b36;
 }
 
+h1:hover{
+    color: black;
+}
 header {
     border-width: 1px;
-    border-style: solid;
-    border-color: black;
+    border-style: solid; 
+    background-color: #f6f7f9;
 }
 
 nav {
-    border-width: 1px;
+    border-bottom: 13px;
     border-style: solid;
-    border-color: black;
-    padding: 30px 0 30px 0;
+    border-color: #3c2418;
+    padding: 30px 0 30px 50px;
+    background-image: url(../pics/candles/bundle/homepageCandles.jpg);
+}
+
+nav li a {
+    margin: 0 0 0 0px;
+    transition: margin-left 0.5s;
+    background-color: #3c2418;
+    color: white;
+    padding: 20px;
+}
+
+nav li a:hover {
+    color: #b66b36;
+    margin: 0 0 0 30px;
 }
 
 nav li {
-    margin: 5px 0 5px 0;
+    margin: 5px 0 50px 70px;
+    font-size: 30px;
 }
 
 ul {
-    text-align: center;
+    text-align: left;
+}
+
+#mainContent ul li {
+    font-size: 35px;
+    margin: 0 0 50px 50px;
+    list-style-type: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#mainContent ul {
+    margin: 100px 0 0 0;
 }
 
 footer {
@@ -44,20 +84,29 @@ footer {
 
 nav ul li {
     list-style-type: none;
+    
 }
 
 /* Margin is space around stuff */
 #container {
-    width: 1000px;
+    width: 2500px;
     margin: 0 auto 0 auto; /* Top, right, bottom, left */
+    filter: none;
 }
 
 
 
 #mainContent {
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-color: black;
+    background-image: url(../pics/candles/bundle/homepageCandles.jpg);
+    /* background-size: contain; */
+    background-position: 1200px;
+    background-repeat: no-repeat;
+    background-color: #bb8255;
+    height: 1000px;
+    
 }
 
 .productImage {
@@ -70,6 +119,9 @@ nav ul li {
     border-color: black;
     margin: 0 auto 0 auto;
     width: 700px;
+}
+#product{
+    width: 60px;
 }
 
 .productPictureAndName {
@@ -86,14 +138,10 @@ nav ul li {
 footer {
     text-align: center;
     padding: 20px 20px 20px 20px;
+    background-color: #23170d;
+    color: white;
+    font-size: 25px;
 }
-
-#one{
-    background:red;
-    height: 150px;
-    text-align:right;
-    font-size: 70px;
-    width: 50%;
 
 
 
