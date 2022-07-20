@@ -27,15 +27,29 @@ h1:hover{
 header {
     border-width: 1px;
     border-style: solid; 
+    border-color: #3c2418; /* #3c2418 */
     background-color: #f6f7f9;
 }
 
 nav {
     border-bottom: 13px;
     border-style: solid;
-    border-color: #3c2418;
+    border-color: #3c2418; /* #3c2418 */
     padding: 30px 0 30px 50px;
     background-image: url(../pics/candles/bundle/homepageCandles.jpg);
+}
+
+nav ul {
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: green; */
+    /* width: 500px; */
+    /* float: left; */
+}
+
+nav #categories {
+    width: 500px;
+    float: left;
 }
 
 nav li a {
@@ -66,10 +80,31 @@ ul {
     list-style-type: none;
     color: white;
     font-weight: bolder;
+    text-shadow: 0 3px 0 3px;
 }
 
 #mainContent ul {
     margin: 100px 0 0 0;
+}
+
+#cartandsignin {
+        
+}
+
+#cartandsignin ul {
+    /* text-align: right; */
+    width: 300px;
+    margin: 120px 0 0 2100px;
+    /* border-width: 20px;
+    border-style: solid;
+    border-color: black; */
+}
+
+#cartandsignin ul li {
+    font-size: 20px;
+    list-style-type: none;
+    /* border: 1px solid green; */
+    /* display: inline; */
 }
 
 footer {
@@ -91,9 +126,14 @@ nav ul li {
 #container {
     width: 2500px;
     margin: 0 auto 0 auto; /* Top, right, bottom, left */
-    filter: none;
 }
-
+/* #minicontainer {
+    width: 20px;
+    height: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border: 5px;
+    background-image: url(../pics/candles/singles/svitlana-6FFfvnvsJaQ-unsplash.jpg); */
 
 
 #mainContent {
@@ -105,12 +145,23 @@ nav ul li {
     background-position: 1200px;
     background-repeat: no-repeat;
     background-color: #bb8255;
-    height: 1000px;
-    
+    height: 1000px; 
 }
 
-.productImage {
-    width: 200px;
+#mainContent ul li {
+
+}
+
+#mainContent ul {
+    border: 1px solid white;
+    width: 300px;
+    float: left;
+}
+
+#productPicture {
+    margin: 100px 0 0 90px;
+    width: 500px;
+    box-shadow: 3px 10px 8px #23170d ;
 }
 
 #rowOfProducts {
@@ -119,9 +170,6 @@ nav ul li {
     border-color: black;
     margin: 0 auto 0 auto;
     width: 700px;
-}
-#product{
-    width: 60px;
 }
 
 .productPictureAndName {
