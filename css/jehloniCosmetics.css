@@ -1,5 +1,6 @@
 /* font-family: 'Cormorant SC', serif;
 font-family: 'Josefin Sans', sans-serif; */
+/* tablet styles */
 
 * {
     margin: 0;
@@ -24,6 +25,7 @@ h1 {
 h1:hover{
     color: black;
 }
+
 header {
     border-width: 1px;
     border-style: solid; 
@@ -38,14 +40,7 @@ nav {
     padding: 30px 0 30px 50px;
     background-image: url(../pics/candles/bundle/homepageCandles.jpg);
 }
-/* 
-nav ul {
-    /* border-width: 5px;
-    border-style: solid;
-    border-color: green; */
-    /* width: 500px; */
-    /* float: left; */
-/*}*/
+
 
 nav #categories {
     width: 500px;
@@ -91,7 +86,7 @@ ul {
     /* text-align: right; */
     width: 300px;
     margin: 120px 0 0 2100px;
-    /* border-width: 20px;
+    /* border-width: 1px;
     border-style: solid;
     border-color: black; */
 }
@@ -199,7 +194,26 @@ nav ul li {
     margin: 0 auto 0 auto;
     width: 700px;
 }
-
+.topnav{
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 260px 0 0 0;
+    
+}
+.topnav .search-container button {
+    float: right;
+    padding: 55px 600px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgba(253, 206, 165, 0);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
 .productPictureAndName {
     float: left;
     margin: 0 0 0 100px;
@@ -219,9 +233,86 @@ footer {
     font-size: 25px;
 }
 
-
-
+/* tablet styles */
+@media only screen and (max-width:768px) {
+    
 }
+/* mobile styles */
+@media only screen and (max-width:450px) {
+    #mainContent{
+        font-size: 100px;
+        background-color: #b66b36;
+    }
+
+    #container {
+        width: 840px;
+        margin: 0 auto 0 auto; /* Top, right, bottom, left */
+    }
+
+    #productDetails {
+        color: black;
+        float: none;
+        margin: 0 0 0 0;
+        font-size: 45px;
+    /* width: 400px; */
+    /* margin: 43px 0 500px; */
+    }
+
+    nav li {
+        /* margin: 5px 0 50px 70px; */
+        font-size: 55px;
+    }
+
+    nav #categories {
+        /* width: 500px; */
+        float: none;
+    }
+
+    #mainContent #mainContentListOfCategories {
+        float: none;
+        width: 800px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+
+    }
+
+    #mainContentListOfCategories li a {
+        /* color: white; */
+        /* text-decoration: none; */
+        font-size: 50px;
+    }
+
+    #mainContentListOfCategories li {
+        display: inline;
+    }
+
+    #productPicture {
+        float: none;
+        margin: 0 0 0 90px;
+    }
+
+    #cartandsignin ul {
+        /* text-align: right; */
+        width: 500px;
+        margin: 0 0 0 0;
+        /* border-width: 1px;
+        border-style: solid;
+        border-color: black; */
+    }
+
+    #cartandsignin ul li {
+        font-size: 55px;
+        /* list-style-type: none;
+        border: 1px solid green; */
+        /* display: inline; */
+    }
+    
+
+    #mainContentListOfCategories{
+        margin: 200px 0 0 300px;
+    }
+    
+} 
 /* body {
     background-color: pink;
     background-image: radial-gradient(circle, #ffffff, #b1b1bc, #696969);
@@ -327,4 +418,4 @@ li{
     content: "";
     clear: both;
     display: table;
-} */
+}
