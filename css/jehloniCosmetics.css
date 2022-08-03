@@ -50,7 +50,7 @@ nav #categories {
 nav li a {
     margin: 0 0 0 0px;
     transition: margin-left 0.5s;
-    background-color: #3c2418;
+    background: linear-gradient(#3c1818,#5c3416,#6f3d17);
     color: white;
     padding: 20px;
 }
