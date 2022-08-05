@@ -54,6 +54,37 @@ nav li a {
     color: white;
     padding: 20px;
 }
+
+/* ripple effect */
+.btn span {
+    position: absolute;
+    border-radius: 50%;
+    /* To make it round */
+    background: linear-gradient(#3c1818,#5c3416,#6f3d17);;
+
+    width: 20px;
+    height: 10px;
+    margin-top: 130px;
+    /* for positioning */
+    margin-left: 160px;
+
+    animation: ripple 1s;
+    opacity: 0;
+}
+
+/* Add animation */
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}
+
 /* this gives animation color to the nav listing */
 nav li a:hover {
     color: #b66b36;

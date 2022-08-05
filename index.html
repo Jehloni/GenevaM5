@@ -11,18 +11,18 @@
     <body>
         <!-- this is the container that surrounds the ul, list of categories of scents, Navigation; top nav bar for search bar, list items that are in cartandsignin  -->
         <div id="container">
-            <header>
+            <header id="topOfPage">
                 <h1 id="headername">Jehneva</h1>
                 <nav>
                     <ul id="categories">
-                        <li><a href="#">Jlean</a></li>
-                        <li><a href="#">Jearthy</a></li>
-                        <li><a href="#">Jruit & Jropical</a></li>
-                        <li><a href="#">Jloral</a></li>
+                        <li><a class="btn" href="#">Jlean</a></li>
+                        <li><a class="btn" href="#">Jearthy</a></li>
+                        <li><a class="btn" href="#">Jruit & Jropical</a></li>
+                        <li><a class="btn" href="#">Jloral</a></li>
                     </ul>
                     <div class="topnav">
                         <a class="active" href="#home">Search</a>
-                        <input type="text" placeholder="Search..">
+                        <input type="text" placeholder="Search.. id="searchInput">
                     </div>
         <!-- section for cart and sign. -->
                     <section id="cartandsignin" class="clearfix">
@@ -88,7 +88,8 @@
             <!-- This marks the end of the #mainContent section -->
             </section>
             <footer>
-                &copy; Copyright. All Rights Reserved. Jehloni Willis
+                <a href="#topOfPage">
+                &copy; Copyright. All Rights Reserved. Jehloni Willis</a>
             </footer>
         </div>
         <script src="javascript.js"></script>
